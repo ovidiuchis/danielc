@@ -1,0 +1,32 @@
+[
+  {
+    "id": "home-renovation",
+    "title": "Home Renovation",
+    "description": "Complete transformations that maximize your space and increase property value.",
+    "icon": "fa-home"
+  },
+  {
+    "id": "kitchen-remodeling",
+    "title": "Kitchen Remodeling",
+    "description": "Modern kitchen designs with premium materials and expert craftsmanship.",
+    "icon": "fa-utensils"
+  },
+  {
+    "id": "bathroom-renovation",
+    "title": "Bathroom Renovation",
+    "description": "Luxurious bathroom updates that combine style, comfort, and functionality.",
+    "icon": "fa-bath"
+  },
+  {
+    "id": "custom-carpentry",
+    "title": "Custom Carpentry",
+    "description": "Bespoke cabinets, shelving, and woodwork tailored to your specific requirements.",
+    "icon": "fa-hammer"
+  },
+  {
+    "id": "interior-design",
+    "title": "Interior Design",
+    "description": "Professional design services to create cohesive and stunning living spaces.",
+    "icon": "fa-couch"
+  }
+]
