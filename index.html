@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- Header with Navigation -->
-    <header>
+    <header id="site-header">
       <div class="container">
         <div class="nav-wrapper">
           <div class="logo">
@@ -47,6 +47,19 @@
         </div>
       </div>
     </section>
+    <script>
+      // Ensure hero is always below the header, even if header height changes (dynamic or responsive)
+      function adjustHeroMargin() {
+        const header = document.getElementById("site-header");
+        const hero = document.getElementById("hero");
+        if (header && hero) {
+          const headerHeight = header.offsetHeight;
+          hero.style.marginTop = headerHeight + "px";
+        }
+      }
+      window.addEventListener("DOMContentLoaded", adjustHeroMargin);
+      window.addEventListener("resize", adjustHeroMargin);
+    </script>
 
     <!-- Expertise Section -->
     <section id="expertise">

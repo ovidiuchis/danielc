@@ -95,7 +95,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  padding: 20px 0;
+  padding: 5px 0;
   transition: var(--transition);
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: var(--shadow);
@@ -229,6 +229,7 @@ header.scrolled {
   display: flex;
   align-items: center;
   padding-top: 60px; /* Add padding to account for fixed header */
+  margin-top: 60px; /* Add margin to push hero below fixed header */
 }
 
 .hero-content {
@@ -660,6 +661,13 @@ footer {
   .testimonial-content p {
     font-size: 1rem;
   }
+
+  #hero {
+    height: 45vh;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-top: 70px; /* Adjust for smaller header on mobile */
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -673,5 +681,12 @@ footer {
 
   .section-title {
     font-size: 1.8rem;
+  }
+
+  #hero {
+    height: 35vh;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 60px; /* Further adjust for smallest screens */
   }
 }
