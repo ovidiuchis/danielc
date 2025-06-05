@@ -2,6 +2,8 @@
 
 Welcome to the source code for [Daniel C.'s personal website](https://ovidiuchis.github.io/danielc) — a clean, minimal, and responsive homepage that introduces Daniel and makes it easy to get in touch.
 
+[![GitHub Pages](https://img.shields.io/github/deployments/ovidiuchis/danielc/github-pages?label=Deploy&style=for-the-badge)](https://github.com/ovidiuchis/danielc/deployments/activity_log?environment=github-pages)
+
 ---
 
 ## 📸 Preview
