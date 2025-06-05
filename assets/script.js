@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const nextBtn = document.querySelector(".next-btn");
 
   // Fetch testimonials from JSON file
-  fetch("../content/testimonials.json")
+  fetch("content/testimonials.json")
     .then(response => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const loadingIndicator = servicesGrid.querySelector(".loading-indicator");
 
-    return fetch("../content/services.json")
+    return fetch("content/services.json")
       .then(response => {
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.statusText}`);
@@ -179,7 +179,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const loadingIndicator = workGrid.querySelector(".loading-indicator");
 
-    return fetch("../content/projects.json")
+    return fetch("content/projects.json")
       .then(response => {
         if (!response.ok) {
           throw new Error(`Network response was not ok: ${response.statusText}`);
