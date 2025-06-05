@@ -19,22 +19,6 @@ Welcome to the source code for [Daniel C.'s personal website](https://ovidiuchis
 - 💨 Smooth entrance animations using [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
 - 📇 Contact section with email and quick links
 
----
-
-## 📁 Project Structure
-
-```plaintext
-danielc/
-├── index.html          # Main HTML page
-├── css/
-│   └── style.css       # Custom styles
-├── js/
-│   └── script.js       # Optional JS (currently minimal)
-├── assets/
-│   ├── fonts/          # Local fonts (if any)
-│   └── images/         # Profile or illustration assets
-└── README.md           # This file
-```
 
 ---
 
