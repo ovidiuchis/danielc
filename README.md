@@ -8,7 +8,7 @@ Welcome to the source code for [Daniel C.'s personal website](https://ovidiuchis
 
 ## 📸 Preview
 
-![Screenshot of homepage](https://ovidiuchis.github.io/danielc/assets/preview.jpg) <!-- Optional: add screenshot if desired -->
+![Screenshot of homepage](https://ovidiuchis.github.io/danielc/assets/preview.png) <!-- Optional: add screenshot if desired -->
 
 ---
 
