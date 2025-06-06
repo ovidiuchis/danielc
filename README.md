@@ -1,3 +1,9 @@
+## ☕ Support
+
+If my work encourages or helps you, feel free to show your support 👇
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/ochis)
+
 # 🌐 Daniel C. – Personal Site
 
 Welcome to the source code for [Daniel C.'s personal website](https://ovidiuchis.github.io/danielc) — a clean, minimal, and responsive homepage that introduces Daniel and makes it easy to get in touch.
